@@ -1,0 +1,14 @@
+# Power flow / circuit simulation
+opendssdirect.py>=0.9
+pandapower>=3.0
+
+# Graph learning
+torch>=2.2
+torch_geometric>=2.5
+
+# Numerics
+numpy<2  # pin for torch<2.3 numpy-ABI compatibility; relax once torch is upgraded
+
+# Notebook / dev
+nbformat>=5.1
+jupyter
